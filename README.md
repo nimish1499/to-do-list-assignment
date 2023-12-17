@@ -4,7 +4,17 @@
 
 This project is a simple Todo application built with React and Redux. It allows users to add tasks, mark tasks as complete, and persists the state in local storage.
 
-#Deployment:
+## Objective
+
+The main objectives of this project are:
+
+- Implement a to-do widget following the provided UI design.
+- Enable data entry via a text field at the bottom of the widget with each entry having a checkbox to toggle completion status.
+- Manage the to-do list data within a global state using Redux for persistence across page refreshes.
+- Prioritize user experience and accessibility while ensuring the code is modular to accommodate future requirements with minimal changes.
+- Maintain a well-organized file hierarchy and adhere to best practices for naming conventions within the Redux store and the application's source code.
+
+## Deployment:
 
 The live version of this project can be viewed [here](https://nimish-to-widget.netlify.app).
 
@@ -40,6 +50,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 **Persistent State:** Tasks are saved in local storage, ensuring that your list remains intact across browser sessions.
 
 **Responsive Design:** The UI is responsive, making it usable on a variety of devices and screen sizes.
+
 
 ## Built With
 **React:**  A JavaScript library for building user interfaces..
